@@ -16,6 +16,7 @@ import { InicioPage } from './inicio.page';
     IonicModule,
     InicioPageRoutingModule,
     
+    
   ],
   declarations: [InicioPage]
 })
