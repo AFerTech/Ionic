@@ -13,6 +13,9 @@ export class DataService {
   getUsuarios(){
     return this.Http.get('https://jsonplaceholder.typicode.com/users');
   }
+  getAlbum(){
+    return this.Http.get<any[]>('https://jsonplaceholder.typicode.com/albums');
+  }
   getMenuOps(){
     return this.Http.get<Componente[]>('/assets/data/menu-ops.js');
   }
