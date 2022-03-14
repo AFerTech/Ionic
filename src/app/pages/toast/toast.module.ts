@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TabsPageRoutingModule } from './tabs-routing.module';
+import { ToastPageRoutingModule } from './toast-routing.module';
 
-import { TabsPage } from './tabs.page';
+import { ToastPage } from './toast.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    TabsPageRoutingModule,
+    ToastPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [TabsPage]
+  declarations: [ToastPage]
 })
-export class TabsPageModule {}
+export class ToastPageModule {}
