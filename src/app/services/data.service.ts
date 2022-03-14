@@ -19,4 +19,7 @@ export class DataService {
   getMenuOps(){
     return this.Http.get<Componente[]>('/assets/data/menu-ops.js');
   }
+  getSegment(){
+    return this.Http.get<Componente[]>('/assets/data/superheroes.json');
+  }
 }
