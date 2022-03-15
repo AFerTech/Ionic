@@ -28,6 +28,7 @@ export class ModalPage implements OnInit {
     // se dispara en el momento en el que se cierra, mucho antes de iniciar la animación
     const {data}= await modal.onWillDismiss();
     console.log(data);
+    console.log(JSON.stringify(data));
   }
 
 }
